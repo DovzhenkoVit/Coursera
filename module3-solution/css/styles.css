@@ -1,0 +1,23 @@
+body {
+	color: black;
+}
+
+#header-nav {
+	background-color: #a4a4a4;
+}
+
+.navbar-default .navbar-brand {
+	color: black;
+}
+#chicken-tile {
+	background-color: #a4a4a4;
+	height: 1000px;
+}
+
+@media (max-width: 767px) {
+	#chicken-tile {
+		/*width: 360px;*/
+        margin-left: auto;
+        margin-right: auto;  
+    }
+}
