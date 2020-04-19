@@ -6,25 +6,18 @@ body {
 	background-color: #a4a4a4;
 }
 
-#nav-list {
-    background-color: #7a8b95;
-}
-
-.navbar-default .navbar-nav>li>a {
-	color: black;
-	font-weight: bolder;
-	font-size: 1.2em;
-}
-
 .navbar-default .navbar-brand {
 	color: black;
 }
-
-#main-content{
-	width: 90%;
-}
-#chicken-tile, #beef-tile, #sushi-tile {
+#chicken-tile {
 	background-color: #a4a4a4;
-	padding: 10px 20px;
-	margin-top: 20px;
+	height: 1000px;
+}
+
+@media (max-width: 767px) {
+	#chicken-tile {
+		/*width: 360px;*/
+        margin-left: auto;
+        margin-right: auto;  
+    }
 }
